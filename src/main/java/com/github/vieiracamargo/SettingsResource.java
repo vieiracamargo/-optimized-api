@@ -6,7 +6,7 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 
 @Path("/settings")
-public class GreetingResource {
+public class SettingsResource {
 
     @Inject
     GameRepository gameRepository;
@@ -14,7 +14,7 @@ public class GreetingResource {
     @GET
     @Path("/{gameTitle}")
     @Produces(MediaType.APPLICATION_JSON)
-    public Response hello(@PathParam("gameTitle") String gameTitle) {
+    public Response optimizedSetting(@PathParam("gameTitle") String gameTitle) {
         Preset preset = gameRepository.findByTitleOptional(gameTitle)
                 .orElseThrow(NotFoundException::new);
 

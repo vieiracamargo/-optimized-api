@@ -3,6 +3,6 @@ package com.github.vieiracamargo;
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
 @QuarkusIntegrationTest
-class GreetingResourceIT extends GreetingResourceTest {
+class SettingsResourceIT extends SettingsResourceTest {
     // Execute the same tests but in packaged mode.
 }
