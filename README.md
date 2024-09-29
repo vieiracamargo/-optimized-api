@@ -1,8 +1,14 @@
-# optmized-app
+# opitmized-app
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+This project was created for PC users who don't want to spend time messing around with game settings to find the best graphical configuration.
 
-If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
+It is a simple API that returns optimized graphical presets for various PC games.
+
+The available presets were created by YouTubers who dedicated time and effort to provide these settings for the community. One of the goals of this application is to promote both the presets and the creators responsible for this type of content.
+
+If you like the project, consider subscribing to the creators' channels, giving a like to their videos, and sharing the content.
+
+This application is intended solely for educational purposes and does not have any profit-making objectives.
 
 ## Running the application in dev mode
 
